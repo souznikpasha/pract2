@@ -20,11 +20,12 @@ body {
 }
 
 .footer {
+    float: right;
     background:#1ed6cd;
     position: absolute; bottom: 0;
     height:6%;
     width: 100%;
-    display:inline-block;
+    /*display:inline-block;*/
 }
 
 .title {
@@ -189,6 +190,7 @@ html{
 
 @media screen and (max-width: 500px){
 #menu-icon{
+    
  width: 100%;
  height:45px;
  background: #474d59 url("img/menu.png") no-repeat left 12px center;
@@ -354,8 +356,8 @@ html{
 main{
     float: left;
     grid-area: c;
-    min-height: 100vh;
-  
+    height: 700px;
+    width: 70%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -366,7 +368,7 @@ main{
   
   .product{
     width: 100%;
-    height: 90%;
+    /*height: 90%;*/
     border: 1px solid black;
     padding: 0.5rem;
   }
@@ -377,15 +379,18 @@ main{
     grid-template-rows: 20% 70% 10%;
   }
   .top{
+    text-align: center;
     border: 1px solid black;
   }
   .middle{
+
     /* border: 1px solid black; */
   }
   .bottom{
     /* border: 1px solid black; */
   }
   .but-left{
+    
     float: left;
     height: 100%;
     width: 40%;
@@ -397,16 +402,15 @@ main{
     width: 40%;
     border: 1px solid black;
   }
-  
-  /* FOOTER */
-  footer{
-    grid-area: d;
-  }
-  
+
   .gray-100{ background-color: #D8D8D8;}
   .gray-200{ background-color: #ABABAB;}
-  .gray-300{ background-color: #929292;}
+  .gray-300{ background-color: #fdfcfc;}
   .gray-400{ background-color: #ffffff;}
   
   
-  
+  .gallery{
+    height: 80%;
+    width: 80%;
+
+  }
