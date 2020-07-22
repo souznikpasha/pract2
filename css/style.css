@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
 body {
-    margin: auto;
-    font-family: 'PT Sans Narrow';
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    margin: auto;
     color: #333;
 }
 
@@ -101,18 +101,6 @@ html{
  height: 100%;
 }
 
-body{
- font-family: 'Roboto', sans-serif;
- font-size: 14px;
- color:#474d59;
- background : #fafafa;
- background-image: -ms-linear-gradient(bottom, #B99BB7 0%, #D2CEEF 50%, #79C2D1 100%);
- background-image: -moz-linear-gradient(bottom, #B99BB7 0%, #D2CEEF 50%, #79C2D1 100%);
- background-image: -o-linear-gradient(bottom, #B99BB7 0%, #D2CEEF 50%, #79C2D1 100%);
- background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #B99BB7), color-stop(50, #D2CEEF), color-stop(100, #79C2D1));
- background-image: -webkit-linear-gradient(bottom, #B99BB7 0%, #D2CEEF 50%, #79C2D1 100%);
- background-image: linear-gradient(to top, #B99BB7 0%, #D2CEEF 50%, #79C2D1 100%);
-}
 
 #menu-wrap {
  position:relative;
@@ -266,6 +254,7 @@ body{
 }
 #menuVertical{width:40%;height:auto;}
     #menuVertical ul{
+        float:left;
         display:block;
         width:40%;
         height:auto;
@@ -359,3 +348,65 @@ body{
 }
 .product-item:hover .button {background: #fc5a5a;}
 
+/*grid*/
+
+/* MAIN PART */
+main{
+    float: left;
+    grid-area: c;
+    min-height: 100vh;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    grid-gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .product{
+    width: 100%;
+    height: 90%;
+    border: 1px solid black;
+    padding: 0.5rem;
+  }
+  .product-container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 20% 70% 10%;
+  }
+  .top{
+    border: 1px solid black;
+  }
+  .middle{
+    /* border: 1px solid black; */
+  }
+  .bottom{
+    /* border: 1px solid black; */
+  }
+  .but-left{
+    float: left;
+    height: 100%;
+    width: 40%;
+    border: 1px solid black;
+  }
+  .but-right{
+    float: right;
+    height: 100%;
+    width: 40%;
+    border: 1px solid black;
+  }
+  
+  /* FOOTER */
+  footer{
+    grid-area: d;
+  }
+  
+  .gray-100{ background-color: #D8D8D8;}
+  .gray-200{ background-color: #ABABAB;}
+  .gray-300{ background-color: #929292;}
+  .gray-400{ background-color: #ffffff;}
+  
+  
+  
