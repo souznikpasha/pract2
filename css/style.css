@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+body {
+    margin: auto;
+    font-family: 'PT Sans Narrow';
+    font-size: 14px;
+    color: #333;
+}
+
+.header {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    flex-direction: row;
+}
+
+.header {
+    height: 100px;
+    background: #746cdd;
+}
+
+.footer {
+    background:#1ed6cd;
+    position: absolute; bottom: 0;
+    height:6%;
+    width: 100%;
+    display:inline-block;
+}
+
+.title {
+    font-family: 'PT Sans Narrow';
+    font-size: 20px;
+    color: black;
+    margin: 35px;
+}
+.title2 {
+    font-family: 'PT Sans Narrow';
+    font-size: 10px;
+    color: black;
+    margin: 20px;
+}
+.logo {
+    width:70px;
+    height: 70px;
+    margin: 15px;
+} 
+
+
+.logo2 {
+    width:30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.shop {
+    margin:25px;
+    max-width: 8em;
+  min-height: 2em;
+  margin-left: auto;
+  margin-right: 4em;
+  font-size: 18px;
+}
+
+#main>div{
+    font-weight: bold;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#main2>div{
+    font-weight: bold;
+    vertical-align: middle;
+    display: inline-block;
+}
+.card{
+
+    width: 60px;
+    height: 60px;
+}
+.author{
+    margin: -40px;
+    max-width: 4em;
+
+  margin-left: auto;
+  margin-right: 2em;
+  font-size: 15px;
+}
+
