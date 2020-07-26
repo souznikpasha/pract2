@@ -1,0 +1,42 @@
+{
+    "10000": {
+        "name" : "hat",
+        "cost" : 3000,
+        "image" : "./images/sale1.png"
+    },
+    "10001": {
+        "name" : "hat1",
+        "cost" : 5000,
+        "image" : "./images/sale2.png"
+    },
+    "10002": {
+        "name" : "hat2",
+        "cost" : 7000,
+        "image" : "./images/sale3.png"
+       },
+       "10003": {
+        "name" : "hat2",
+        "cost" : 7000,
+        "image" : "./images/sale3.png"
+       },
+       "10004": {
+        "name" : "hat",
+        "cost" : 3000,
+        "image" : "./images/sale1.png"
+    },
+    "10005": {
+        "name" : "hat1",
+        "cost" : 5000,
+        "image" : "./images/sale2.png"
+    },
+    "10006": {
+        "name" : "hat2",
+        "cost" : 7000,
+        "image" : "./images/sale3.png"
+       },
+       "10007": {
+        "name" : "hat2",
+        "cost" : 7000,
+        "image" : "./images/sale3.png"
+       }
+}
