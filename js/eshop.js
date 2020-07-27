@@ -31,7 +31,7 @@ function loadgoods(num){
     $.getJSON(shoptitle, function (data){
             //console.log(data);
             var out = ' ';
-            out+='<main class="gray-300">';
+            out+='<main class="content">';
             for (var key in data) {
                 out+='    <div class="product">';
                 out+='        <div class="product-container">';
