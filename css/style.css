@@ -98,6 +98,11 @@ body {
     height: 30px;
 }
 
+.delete-all-cart{
+    width: 30px;
+    height: 30px;
+}
+
 .textcard {
     color: #000000;
 }

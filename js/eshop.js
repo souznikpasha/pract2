@@ -20,7 +20,7 @@ function loadgoods(){
                 out+='            <div class="middle"><img src="'+data[key].image+'" class="gallery"></div>';
                 out+='            <div class="bottom">';
                 out+='                <input type="button" data-art="'+key+'" value='+data[key]['cost']+' class="add-to-cart">';
-                out+='                <input type="submit" data-art="'+key+'" value="Удалить"  class="but-right">';
+                out+='                <input type="button" data-art="'+key+'" value="Удалить"  class="but-right">';
                 out+='            </div>';
                 out+='        </div>';
                 out+='    </div>';
@@ -34,7 +34,7 @@ function loadgoods(){
             }*/
             $('#goods').html(out);
             $('input.add-to-cart').on('click', addToCart);
-            $('input.delete-to-cart').on('click', deletetocart);
+            $('input.but-right').on('click', deletetocart);
         })
 }
 
@@ -53,7 +53,17 @@ function addToCart() {
 }
 
 function deletetocart(){
-    
+        //убрать товар из корзины(блоки)
+        var articul = $(this).attr('data-art');
+        if (cart[articul]!=undefined) {
+            cart[articul]--;
+        }
+        if(cart[articul]==0) {
+            delete cart[articul];
+        }
+        localStorage.setItem('cart', JSON.stringify(cart));
+        console.log(cart);
+        showMiniCart();
 }
 
 function checkCart(){
@@ -87,7 +97,9 @@ function showMiniCart(){
                                     //out +='<div><p>Шапка 3000р</p></div>';
                                     out +='<div>'+data[key]['name']+' '+data[key]['cost']+' '+cart[key]+'шт</div>';
                                     //out +='<div>'+cart[key]['articul']+' '+data[key]['cost']+'</div>';
-                                    out +='<div><a><img src="./images/Krest.png" class="photosale"></a></div>';
+                                    out +='<input type="image" class="delete-all-cart" data-art="'+key+'" src="./images/Krest.png">';
+                                    //out +='<input type="button" data-art="'+key+'"   class="delete-all-cart"><img src="./images/Krest.png"></button>';
+                                    //out +='<button data-art="'+key+'" class="delete-all-cart><a><img src="./images/Krest.png"></a></button>';
                                     out +='</div>';
                                 out +='</li>';
                                 //out += i + ' - ' +cart[i]+'<br>';
@@ -101,5 +113,16 @@ function showMiniCart(){
             out +='</shop>';
         out +='</header>';
         $('#mini-cart').html(out);
+        $('input.delete-all-cart').on('click', deleteallcart);
     });
+}
+
+function deleteallcart(){
+    //убрать товар из корзины(корзина)
+    console.log('delete');
+    var articul = $(this).attr('data-art');
+    delete cart[articul];
+    localStorage.setItem('cart', JSON.stringify(cart));
+    console.log(cart);
+    showMiniCart();
 }
