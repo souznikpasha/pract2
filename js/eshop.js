@@ -1,4 +1,6 @@
 var cart = {}; // корзина
+let goodsnumber = null;
+var shoptitle = "./json/goods.json";
 $('document').ready(function(){
     loadgoods();
     showMiniCart();
@@ -6,10 +8,27 @@ $('document').ready(function(){
     
     
 })
+function gettitle(num){
+    if(num == 0){
+        shoptitle = "./json/goods.json";
+    }
+    if(num == 1){
+        shoptitle = "./json/goods1.json";
+    }
+    if(num == 2){
+        shoptitle = "./json/goods2.json";
+    }
+    if(num == 3){
+        shoptitle = "./json/goods3.json";
+    }
+}
 
-function loadgoods(){
+function loadgoods(num){
     //Загружаю товары на страницу
-    $.getJSON("goods.json", function (data){
+    console.log(num);
+    gettitle(num);
+    console.log(shoptitle);
+    $.getJSON(shoptitle, function (data){
             //console.log(data);
             var out = ' ';
             out+='<main class="gray-300">';
@@ -77,7 +96,7 @@ function checkCart(){
 
 function showMiniCart(){
     //содержимое корзины
-    $.getJSON("goods.json", function (data){
+    $.getJSON("./json/goodscart.json", function (data){
         var out =' ';
         out +='<header class="header">';
         out +='<img src="./images/logo.png" class="logo">';
@@ -107,8 +126,15 @@ function showMiniCart(){
                             out +='</ul>';
                         out +='</li>';
                     out +='</div>';
-                out +='<div class="textcard"><p>3</p></div>';
-                out +='<div class="textcard"><p>9000</p></div>';
+                var sum = 0;
+                var count = 0;
+                for (var key in cart){
+                    sum += data[key]['cost']*cart[key];
+                    count += 1*cart[key];
+                }
+                console.log(sum);
+                out +='<div class="textcard"><p>'+count+' шт&nbsp</p></div>';
+                out +='<div class="textcard"><p>'+sum+' руб</p></div>';
                 out +='</div>';
             out +='</shop>';
         out +='</header>';

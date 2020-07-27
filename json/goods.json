@@ -1,0 +1,42 @@
+{
+    "10000": {
+        "name" : "Pompon",
+        "cost" : 3000,
+        "image" : "./images/pomp1.png"
+    },
+    "10001": {
+        "name" : "Pompon1",
+        "cost" : 5000,
+        "image" : "./images/pomp2.png"
+    },
+    "10002": {
+        "name" : "Pompon2",
+        "cost" : 7000,
+        "image" : "./images/pomp3.png"
+       },
+       "10003": {
+        "name" : "Pompon3",
+        "cost" : 9000,
+        "image" : "./images/pomp4.png"
+       },
+       "10004": {
+        "name" : "Pompon4",
+        "cost" : 3000,
+        "image" : "./images/pomp1.png"
+    },
+    "10005": {
+        "name" : "Pompon5",
+        "cost" : 5000,
+        "image" : "./images/pomp2.png"
+    },
+    "10006": {
+        "name" : "Pompon6",
+        "cost" : 7000,
+        "image" : "./images/pomp3.png"
+       },
+       "10007": {
+        "name" : "Pompon7",
+        "cost" : 9000,
+        "image" : "./images/pomp4.png"
+       }
+}

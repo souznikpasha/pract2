@@ -1,0 +1,42 @@
+{
+    "10030": {
+        "name" : "soloma",
+        "cost" : 3000,
+        "image" : "./images/soloma.png"
+    },
+    "10031": {
+        "name" : "soloma1",
+        "cost" : 5000,
+        "image" : "./images/soloma1.png"
+    },
+    "10032": {
+        "name" : "soloma2",
+        "cost" : 7000,
+        "image" : "./images/soloma2.png"
+    },
+    "10033": {
+        "name" : "soloma3",
+        "cost" : 9000,
+        "image" : "./images/soloma3.png"
+    },
+    "10035": {
+        "name" : "soloma4",
+        "cost" : 3000,
+        "image" : "./images/soloma.png"
+    },
+    "10036": {
+        "name" : "soloma5",
+        "cost" : 5000,
+        "image" : "./images/soloma1.png"
+    },
+    "10037": {
+        "name" : "soloma6",
+        "cost" : 7000,
+        "image" : "./images/soloma2.png"
+    },
+    "10038": {
+        "name" : "soloma7",
+        "cost" : 9000,
+        "image" : "./images/soloma3.png"
+    }
+}

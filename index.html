@@ -7,7 +7,7 @@
     <title>ShlyapKa</title>
     <link rel="stylesheet" href="./css/style.css"> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -58,40 +58,23 @@
 -->
     <nav id="menuVertical">
         <ul>
-            <li><a href="#m2">Шапки 1</a>
+            <li><a >Шапки</a>
                 <ul>
-                    <li><a href="#m2_1">Выпадашка 1</a></li>
-                    <li><a href="#m2_2">Выпадашка 2</a></li>
+                    <li onclick=loadgoods(0)><a >Помпон</a></li>
+                    <li onclick=loadgoods(1)><a >Ушанки</a></li>
                 </ul>
             </li>
-            <li><a href="#m2">Шапки 2</a>
+            <li><a >Шляпы</a>
                 <ul>
-                    <li><a href="#m2_1">Выпадашка 1</a></li>
-                    <li><a href="#m2_2">Выпадашка 2</a></li>
-                </ul>
-            </li>
-            <li><a href="#m2">Шапки 3</a>
-                <ul>
-                    <li><a href="#m2_1">Выпадашка 1</a></li>
-                    <li><a href="#m2_2">Выпадашка 2</a></li>
-                </ul>
-            </li>
-            <li><a href="#m2">Шапки 4</a>
-                <ul>
-                    <li><a href="#m2_1">Выпадашка 1</a></li>
-                    <li><a href="#m2_2">Выпадашка 2</a></li>
-                </ul>
-            </li>
-            <li><a href="#m2">Шапки 5</a>
-                <ul>
-                    <li><a href="#m2_1">Выпадашка 1</a></li>
-                    <li><a href="#m2_2">Выпадашка 2</a></li>
+                    <li onclick=loadgoods(2)><a >Ковбойские</a></li>
+                    <li onclick=loadgoods(3)><a >Соломенные</a></li>
                 </ul>
             </li>
         </ul>
     </nav>
+<!--#if -->
 
-<div id="goods"></div>
+<div id="goods"></div> 
 <!--GRID-->
 <!--
 <main class="gray-300">

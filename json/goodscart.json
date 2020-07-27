@@ -1,0 +1,162 @@
+{
+    "10000": {
+        "name" : "Pompon",
+        "cost" : 3000,
+        "image" : "./images/pomp1.png"
+    },
+    "10001": {
+        "name" : "Pompon1",
+        "cost" : 5000,
+        "image" : "./images/pomp2.png"
+    },
+    "10002": {
+        "name" : "Pompon2",
+        "cost" : 7000,
+        "image" : "./images/pomp3.png"
+       },
+       "10003": {
+        "name" : "Pompon3",
+        "cost" : 9000,
+        "image" : "./images/pomp4.png"
+       },
+       "10004": {
+        "name" : "Pompon4",
+        "cost" : 3000,
+        "image" : "./images/pomp1.png"
+    },
+    "10005": {
+        "name" : "Pompon5",
+        "cost" : 5000,
+        "image" : "./images/pomp2.png"
+    },
+    "10006": {
+        "name" : "Pompon6",
+        "cost" : 7000,
+        "image" : "./images/pomp3.png"
+       },
+       "10007": {
+        "name" : "Pompon7",
+        "cost" : 9000,
+        "image" : "./images/pomp4.png"
+       },
+        "10010": {
+            "name" : "Ushanka",
+            "cost" : 3000,
+            "image" : "./images/ushanka.png"
+        },
+        "10011": {
+            "name" : "Ushanka1",
+            "cost" : 5000,
+            "image" : "./images/ushanka1.png"
+        },
+        "10012": {
+            "name" : "Ushanka2",
+            "cost" : 7000,
+            "image" : "./images/ushanka2.png"
+        },
+        "10013": {
+            "name" : "Ushanka3",
+            "cost" : 9000,
+            "image" : "./images/ushanka3.png"
+        },
+        "10015": {
+            "name" : "Ushanka4",
+            "cost" : 3000,
+            "image" : "./images/ushanka.png"
+        },
+        "10016": {
+            "name" : "Ushanka5",
+            "cost" : 5000,
+            "image" : "./images/ushanka1.png"
+        },
+        "10017": {
+            "name" : "Ushanka6",
+            "cost" : 7000,
+            "image" : "./images/ushanka2.png"
+        },
+        "10018": {
+            "name" : "Ushanka7",
+            "cost" : 9000,
+            "image" : "./images/ushanka3.png"
+        },
+            "10020": {
+                "name" : "Cowboy",
+                "cost" : 3000,
+                "image" : "./images/Cowboy.png"
+            },
+            "10021": {
+                "name" : "Cowboy1",
+                "cost" : 5000,
+                "image" : "./images/Cowboy1.png"
+            },
+            "10022": {
+                "name" : "Cowboy2",
+                "cost" : 7000,
+                "image" : "./images/Cowboy2.png"
+            },
+            "10023": {
+                "name" : "Cowboy3",
+                "cost" : 9000,
+                "image" : "./images/Cowboy3.png"
+            },
+            "10025": {
+                "name" : "Cowboy4",
+                "cost" : 3000,
+                "image" : "./images/Cowboy.png"
+            },
+            "10026": {
+                "name" : "Cowboy5",
+                "cost" : 5000,
+                "image" : "./images/Cowboy1.png"
+            },
+            "10027": {
+                "name" : "Cowboy6",
+                "cost" : 7000,
+                "image" : "./images/Cowboy2.png"
+            },
+            "10028": {
+                "name" : "Cowboy7",
+                "cost" : 9000,
+                "image" : "./images/Cowboy3.png"
+            },
+            "10030": {
+                "name" : "soloma",
+                "cost" : 3000,
+                "image" : "./images/soloma.png"
+            },
+            "10031": {
+                "name" : "soloma1",
+                "cost" : 5000,
+                "image" : "./images/soloma1.png"
+            },
+            "10032": {
+                "name" : "soloma2",
+                "cost" : 7000,
+                "image" : "./images/soloma2.png"
+            },
+            "10033": {
+                "name" : "soloma3",
+                "cost" : 9000,
+                "image" : "./images/soloma3.png"
+            },
+            "10035": {
+                "name" : "soloma4",
+                "cost" : 3000,
+                "image" : "./images/soloma.png"
+            },
+            "10036": {
+                "name" : "soloma5",
+                "cost" : 5000,
+                "image" : "./images/soloma1.png"
+            },
+            "10037": {
+                "name" : "soloma6",
+                "cost" : 7000,
+                "image" : "./images/soloma2.png"
+            },
+            "10038": {
+                "name" : "soloma7",
+                "cost" : 9000,
+                "image" : "./images/soloma3.png"
+            }
+        }

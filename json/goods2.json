@@ -1,0 +1,42 @@
+{
+    "10020": {
+        "name" : "Cowboy",
+        "cost" : 3000,
+        "image" : "./images/Cowboy.png"
+    },
+    "10021": {
+        "name" : "Cowboy1",
+        "cost" : 5000,
+        "image" : "./images/Cowboy1.png"
+    },
+    "10022": {
+        "name" : "Cowboy2",
+        "cost" : 7000,
+        "image" : "./images/Cowboy2.png"
+    },
+    "10023": {
+        "name" : "Cowboy3",
+        "cost" : 9000,
+        "image" : "./images/Cowboy3.png"
+    },
+    "10025": {
+        "name" : "Cowboy4",
+        "cost" : 3000,
+        "image" : "./images/Cowboy.png"
+    },
+    "10026": {
+        "name" : "Cowboy5",
+        "cost" : 5000,
+        "image" : "./images/Cowboy1.png"
+    },
+    "10027": {
+        "name" : "Cowboy6",
+        "cost" : 7000,
+        "image" : "./images/Cowboy2.png"
+    },
+    "10028": {
+        "name" : "Cowboy7",
+        "cost" : 9000,
+        "image" : "./images/Cowboy3.png"
+    }
+}

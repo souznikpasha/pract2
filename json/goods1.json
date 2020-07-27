@@ -1,0 +1,42 @@
+{
+    "10010": {
+        "name" : "Ushanka",
+        "cost" : 3000,
+        "image" : "./images/ushanka.png"
+    },
+    "10011": {
+        "name" : "Ushanka1",
+        "cost" : 5000,
+        "image" : "./images/ushanka1.png"
+    },
+    "10012": {
+        "name" : "Ushanka2",
+        "cost" : 7000,
+        "image" : "./images/ushanka2.png"
+    },
+    "10013": {
+        "name" : "Ushanka3",
+        "cost" : 9000,
+        "image" : "./images/ushanka3.png"
+    },
+    "10015": {
+        "name" : "Ushanka4",
+        "cost" : 3000,
+        "image" : "./images/ushanka.png"
+    },
+    "10016": {
+        "name" : "Ushanka5",
+        "cost" : 5000,
+        "image" : "./images/ushanka1.png"
+    },
+    "10017": {
+        "name" : "Ushanka6",
+        "cost" : 7000,
+        "image" : "./images/ushanka2.png"
+    },
+    "10018": {
+        "name" : "Ushanka7",
+        "cost" : 9000,
+        "image" : "./images/ushanka3.png"
+    }
+}
